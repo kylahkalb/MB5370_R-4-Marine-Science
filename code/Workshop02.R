@@ -198,12 +198,10 @@ messy_sites <- tibble(
 # Using stringr within mutate to standardize the text
 clean_sites <- messy_sites |>
   mutate(
-    # 1. Convert everything to lowercase
     site_clean = str_to_lower(site_id),
-    # 2. Replace any spaces with underscores
-    site_clean = str_replace_all(site_clean, pattern = " ", replacement = "_"),
-    # 3. Trim any leading or trailing whitespace (invisible spaces at the ends)
-    site_clean = str_trim(site_clean))
+    site_clean = str_trim(site_clean),
+    site_clean = str_replace_all(site_clean, pattern = " ", replacement = "_")
+  )
 print(clean_sites)
 
 # Load lubridate package
