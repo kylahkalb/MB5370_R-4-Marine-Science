@@ -10,6 +10,10 @@ editor: visual
 
 ![](images/Screenshot 2026-10-07 at 9.41.04 AM.png)
 
+**Original figure source:** Sprogis et al. (2016), Figure 5. Seasonal abundance estimates for adult female and male Indo-Pacific bottlenose dolphins (*Tursiops aduncus*) in Bunbury, Western Australia.
+
+https://doi.org/10.3389/fmars.2016.00012
+
 Message:
 
 The original figure shows how the estimated abundance of adult female and male Indo-Pacific bottlenose dolphins varied across seasons and years from 2007 to 2013.
