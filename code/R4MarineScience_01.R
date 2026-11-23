@@ -149,8 +149,10 @@ grouped_penguins <- group_by(penguins,species)
 print(grouped_penguins)
 
 # 7.2 Summarize mean body mass by species ##
-species_mass_summary <- summarise(grouped_penguins,
-  mean_mass_g = mean(body_mass_g))
+species_mass_summary <- summarise(
+  grouped_penguins,
+  mean_mass_g = mean(body_mass_g, na.rm = TRUE)
+)
 
 #View the summary
 print(species_mass_summary)
